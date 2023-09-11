@@ -8,4 +8,3 @@ class Solution(object):
             print(len(str1)%i,i,len(str1))
             if len(str1) % i == 0 and len(str2) % i == 0:
                 return max(str1, str2)[:i]
-        
